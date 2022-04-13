@@ -78,10 +78,10 @@ void Gauss_integration::points_range(const int N, double x_axis[]) {
     for (int n = 0; n < (Num_of_points+1); n++) {
         if (n != 0) {
            if (n == 1) {
-               point_range[n] = new double[1];
+               point_range[n] = new double[n];
            }  
             else {
-                point_range[n] = new double[N*2];
+                point_range[n] = new double[n*2];
                 int xr = 0;
                 for (int i = 0; i < (N-1); i++) {
                     if (p[n][i]*p[n][i+1] < 0) {
