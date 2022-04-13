@@ -6,10 +6,10 @@ double f(double x);
 void linspace(const int N, double axis[]);
 
 int main() {
-    int Num_of_points = 5;
+    int Num_of_points = 10;
     int a = 0;
     int b = 4;
-    const int N = 101; // 1001
+    const int N = 1001; // 1001
 
     double x_axis[N] = {0};
     linspace(N, x_axis);

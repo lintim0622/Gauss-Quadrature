@@ -53,8 +53,7 @@ double Gauss_integration::dpolyn(const int n, double x) {
 void Gauss_integration::data_base(const int N, double x_axis[]) {
     for (int n = 0; n < Num_of_points+1; n++) {
         p[n] = new double[N];
-
-        if ((Num_of_points-2) >= 0)
+        if ((Num_of_points) >= 0)
             dp[n] = new double[N-2];
         else
             dp[n] = NULL;
