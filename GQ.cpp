@@ -1,6 +1,5 @@
 #include "GQ.h"
 #include <cmath>        // std::fabs
-#include <iostream>
 
 Gauss_integration::Gauss_integration(int N) {
     Num_of_points = N;

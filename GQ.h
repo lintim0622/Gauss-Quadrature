@@ -1,4 +1,5 @@
-#include <cmath>
+#ifndef GQ_H
+#define GQ_H
 
 class Gauss_integration {
 private:
@@ -24,3 +25,5 @@ public:
     void calculate_weight();
     void sort(double arr[], const int n);
 };
+
+#endif

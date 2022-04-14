@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 #include "GQ.cpp"
 
 double f(double x);
