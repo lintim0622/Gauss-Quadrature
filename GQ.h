@@ -4,11 +4,11 @@
 class Gauss_integration {
 private:
     int Num_of_points;
-    double **p = new double*[Num_of_points+1];
-    double **dp = new double*[Num_of_points+1];
-    double **xi = new double*[Num_of_points+1];
-    double **wi = new double*[Num_of_points+1];
-    double **point_range = new double*[Num_of_points+1];
+    double **p = nullptr;
+    double **dp = nullptr;
+    double **xi = nullptr;
+    double **wi = nullptr;
+    double **point_range = nullptr;
 
 public:
     Gauss_integration(const int N);

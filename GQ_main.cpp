@@ -5,8 +5,8 @@ double f(double x);
 void linspace(const int N, double axis[]);
 
 int main() {
-    int Num_of_points = 10;
-    int a = 0;
+    int Num_of_points = 2;
+    int a = -2;
     int b = 4;
     const int N = 1001; // 1001
 
@@ -25,7 +25,7 @@ int main() {
 }
 
 double f(double x) {
-    return x*std::exp(x);
+    return 4.0*x*x*x+2.0*x-5.0; // x*std::exp(x)
 }
 
 void linspace(const int N, double axis[]) {
